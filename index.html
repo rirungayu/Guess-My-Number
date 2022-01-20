@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+    />
+  </head>
+  <body>
+    <div class="everything">
+      <div class="left_side">
+        <div class="selectors">
+          <div>
+            <label> Range </label
+            ><select class="selectorNumbers selector">
+              <!-- <option>10</option> -->
+              <option>20</option>
+              <!-- <option>40</option> -->
+              <option>50</option>
+              <!-- <option>60</option> -->
+              <option>70</option>
+              <!-- <option>80</option> -->
+              <!-- <option>90</option> -->
+              <option>100</option>
+            </select>
+          </div>
+          <div>
+            <label> Difficulty </label
+            ><select class="selectorDifficulty selector">
+              <option>Super Easy</option>
+              <!-- <option>Easy</option> -->
+              <option>Intermediate</option>
+              <!-- <option>Difficult</option> -->
+              <option>Extra Hard</option>
+            </select>
+          </div>
+          <button class="buttonStart button">SET</button>
+        </div>
+        <div class="challenge">
+          <p class="challengeMessage">
+            Hello, I'm bot!🤖 Think you can beat me?😏 Choose a difficulty level
+            to get started 😎
+          </p>
+          <p class="parDifficulty"></p>
+        </div>
+      </div>
+      <div class="main">
+        <div class="game">
+          <div>
+            <p><label class="inputLabel">Enter a number</label></p>
+            <input type="number" class="inputNumber" />
+            <button class="buttonCheck button">Check</button>
+            <p class="higher_lower"></p>
+          </div>
+
+          <div>
+            <p class="scores">
+              <label>Tries Left : </label>
+              <label class="labelTries"></label>
+            </p>
+            <p>
+              <label class="scores">High Score : </label>
+              <label class="labelHighScore">0</label>
+            </p>
+          </div>
+        </div>
+        <div class="guessesDisp">
+          <p>Guesses</p>
+          <div class="guesses"><p>:</p></div>
+
+          <div class="correctNumberLabel"><label>?</label></div>
+        </div>
+
+        <div class="selector selectorPlayerName">
+          <label> Player Name </label
+          ><input type="text" class="inputPlayerName" />
+          <button class="buttonEnter button">Enter</button>
+          <p class="welcome"></p>
+          <div>
+            <p class="winner_loser"></p>
+            <button class="buttonNewPlayer button">New Player</button>
+            <p class="rangeWarning"></p>
+          </div>
+          <button class="buttonEndGame button">
+            New Game <br />
+            (All Players)
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

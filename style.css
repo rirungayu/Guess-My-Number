@@ -1,0 +1,113 @@
+body {
+  background-color: #2e2d2d;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.everything {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  /* overflow: auto; */
+}
+
+.leftside {
+  float: left;
+}
+.main {
+  grid-column: span 4;
+  display: flex;
+  float: left;
+  margin: 45px;
+  margin-top: 50px;
+  border-color: aqua;
+  border-width: 10px;
+  border-style: solid;
+  width: fit-content;
+}
+
+.selectors {
+  display: flex;
+  margin-left: 45px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  width: fit-content;
+}
+.selector {
+  margin-right: 40px;
+  flex: 1;
+}
+
+.welcome {
+  font-size: 2rem;
+  align-content: center;
+}
+.challenge {
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.game {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.guessesDisp {
+  width: 100px;
+  height: 50px;
+  padding: 30px;
+  display: block;
+  flex: 1;
+  word-wrap: break-word;
+}
+
+.guesses {
+  font-size: 1rem;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+  word-wrap: break-word;
+}
+
+.inputLabel {
+  font-weight: bold;
+}
+
+.inputNumber {
+  size: 3rem;
+  height: 100px;
+  width: 100px;
+}
+
+.correctNumberLabel {
+  font-size: 2rem;
+  margin-top: 50px;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.button {
+  font-size: 1em;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.labelHighScore,
+.labelHighestScorer {
+  word-wrap: break-word;
+  width: 175px;
+  display: block;
+}
+
+.hidden {
+  visibility: hidden;
+}
